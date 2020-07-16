@@ -22,7 +22,7 @@ input.onButtonPressed(Button.B, function () {
 })
 let y = 0
 let x = 0
-x = 0
+x = -1
 y = 0
 basic.forever(function () {
     led.plot(x, y)
